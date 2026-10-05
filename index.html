@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff4f9a">
+  <title>Happy Birthday Risita 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sparkles"></div>
+  <div class="balloons" aria-hidden="true">
+    <span>🎈</span><span>🎈</span><span>🎈</span><span>🎈</span><span>🎈</span>
+  </div>
+
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">R<span>♥</span>SITA</div>
+      <button id="musicBtn" class="music-btn" type="button">🎵 Play Birthday Song</button>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">✨ A little surprise made with love ✨</p>
+      <h1>Happy Birthday</h1>
+      <h2>Risita 💖</h2>
+      <p class="hero-text">Today is all about your smile, your happiness, and all the beautiful moments waiting for you.</p>
+      <button id="surpriseBtn" class="main-btn" type="button">🎁 Open Your Surprise</button>
+      <div class="scroll-hint">↓ scroll for your surprise ↓</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="message section">
+      <div class="glass card reveal">
+        <div class="heart">♥</div>
+        <p class="mini-title">A special message for you</p>
+        <h3 id="typing"></h3>
+        <p class="message-copy">
+          May your birthday be filled with laughter, love, peaceful moments,
+          unforgettable memories, and everything that makes your heart happy.
+          Keep shining exactly the way you do. 🌸
+        </p>
+        <p class="signature">With lots of love ✨</p>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <p class="mini-title reveal">Beautiful memories</p>
+      <h3 class="section-title reveal">A little photo wall for Risita 📸</h3>
+      <div class="gallery-grid">
+        <figure class="photo-card reveal"><img src="assets/risita-main.jpeg" alt="Risita"></figure>
+        <figure class="photo-card reveal"><img src="assets/WhatsApp Image 2026-10-06 at 3.17.31 AM.jpeg" alt="Risita memory"></figure>
+        <figure class="photo-card reveal"><img src="assets/WhatsApp Image 2026-10-06 at 3.17.31 AM (1).jpeg" alt="Risita memory"></figure>
+        <figure class="photo-card reveal"><img src="assets/WhatsApp Image 2026-10-06 at 3.17.31 AM (2).jpeg" alt="Risita memory"></figure>
+        <figure class="photo-card reveal"><img src="assets/WhatsApp Image 2026-10-06 at 3.17.32 AM.jpeg" alt="Risita memory"></figure>
+      </div>
+    </section>
+
+    <section class="wish section">
+      <div class="wish-box reveal">
+        <div class="cake">🎂</div>
+        <h3>Make a Wish, Risita!</h3>
+        <p>Close your eyes, make your biggest wish, and press the button.</p>
+        <button id="wishBtn" class="main-btn" type="button">✨ Make My Wish</button>
+        <p id="wishResult" class="wish-result"></p>
+      </div>
+    </section>
+
+    <section class="final section">
+      <div class="final-card reveal">
+        <div class="stars">✦ ✧ ✦</div>
+        <h3>Once again...</h3>
+        <h4>Happy Birthday, Risita! 💕</h4>
+        <p>May this new year of your life be brighter, sweeter and more beautiful than ever.</p>
+        <div class="stars">✦ ✧ ✦</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with ♥ especially for Risita • <span id="year"></span></footer>
+
+  <div id="surpriseModal" class="modal">
+    <div class="modal-card">
+      <button id="closeModal" class="close" type="button">×</button>
+      <div class="modal-icon">🎉</div>
+      <h3>Surprise, Risita!</h3>
+      <p>You deserve a day full of smiles, cake, hugs, happiness and magical memories. 💖</p>
+      <button id="modalMusic" class="main-btn" type="button">🎵 Start the Birthday Song</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
